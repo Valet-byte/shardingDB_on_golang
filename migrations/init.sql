@@ -1,0 +1,6 @@
+
+DROP TABLE IF EXISTS item;
+CREATE TABLE item (
+  id TEXT PRIMARY KEY NOT NULL DEFAULT gen_random_uuid(),
+  val TEXT NULL
+);
